@@ -1,0 +1,32 @@
+first criteria:
+ -35 points: The response is well-organized, covers all three required elements comprehensively and logically.
+ -25 points: The speech is organized, covers all elements, but lacks depth in some areas.
+ -10 points: The speech is somewhat organized but has two key elements or lacks coherence.
+ -5 points: The speech is poorly organized, having one key element, and lacks coherence
+second criteria:
+ -5 points: Stays within the allotted time, well-paced.
+ -4 points: Slightly over or under time, mostly well-paced.
+ -3 points: Significantly over or under time, pacing issues.
+ -1 points: Does not adhere to the time limit, poorly paced.
+third criteria:
+ -20 points: Speaks fluently and avoids reading. Maintains an eye contact with the audience.
+ -15 points: Speaks fluently with occasional hesitations.
+ -10 points: Demonstrates a lack of fluency and fails to avoid reading from the notes.
+ -5 points: Not fluent and constantly reads from the notes.
+fourth criteria:
+ -10 points: Extensive and accurate use of vocabulary including language chunks related to the topic of healthcare.
+ -7 points: Good use of topical vocabulary, with minor errors.
+ -5 points: Adequate use of vocabulary, but with some errors or omissions.
+ -2 points: Limited or incorrect use of topical vocabulary. 
+fifth criteria:
+ -10 points: Excellent grammar usage with no errors.
+ -7 points: Good grammar usage with minor errors.
+ -5 points: Adequate grammar usage with some errors.
+ -2 points: Frequent grammatical errors that impede understanding. 
+sixth criteria:
+ -20 points: Clear pronunciation and delivery, easy to understand.
+ -15 points: Mostly clear pronunciation with minor issues.
+ -10 points: Pronunciation has some issues, but still understandable.
+ -5 points: Poor pronunciation, difficult to understand 
+
+
