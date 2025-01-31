@@ -6,17 +6,18 @@ import ffmpeg
 
 def convert_to_wav(input_file):
     output_file = input_file.rsplit('.', 1)[0] + ".wav"
-    try:
-        (
-            ffmpeg
-            .input(input_file)
-            .output(output_file, format='wav', acodec='pcm_s16le', ac=1, ar='16000')
-            .run()
-        )
-        print(f"Converted {input_file} to {output_file}")
-    except ffmpeg.Error as e:
-        print(f"Error during conversion: {e}", file=sys.stderr)
-        sys.exit(1)
+    subprocess.run(['ffmpeg', '-i', input_file, output_file], check=True)
+#    try:
+#        (
+#            ffmpeg
+#            .input(input_file)
+#            .output(output_file, format='wav', acodec='pcm_s16le', ac=1, ar='16000')
+#            .run()
+#        )
+#        print(f"Converted {input_file} to {output_file}")
+#    except ffmpeg.Error as e:
+#        print(f"Error during conversion: {e}", file=sys.stderr)
+#        sys.exit(1)
     return output_file
 
 def split_audio(input_file, duration_ms=30000):
